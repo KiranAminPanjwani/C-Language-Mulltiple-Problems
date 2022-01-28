@@ -1,0 +1,11 @@
+#ifndef PROBLEM3_H_                                       
+#define PROBLEM3_H_
+
+void problem31(); 
+void problem32();
+void problem33();
+void problem34();
+void problem35();
+
+
+#endif
