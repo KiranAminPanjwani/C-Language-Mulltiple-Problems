@@ -1,0 +1,117 @@
+#include<stdio.h>
+#include <stdlib.h>
+#include<conio.h>
+
+#include "Assignment3.h"                     //add this comment in your respective source files as well
+#include "assignment4.h"                     //add this comment in your respective source files as well      
+
+int main()
+{
+   int num;
+
+   // Infinite loop until user press zero to exit
+   while(1)                                                                       
+   {
+        printf("\n--------------------------------------------------------------------------------------------------------------------\n" );           
+        printf("\n\n\t\t\t\t\t ********* PROBLEM SOLVER ********* \n\n" );
+        printf("\n--------------------------------------------------------------------------------------------------------------------\n" );
+        
+		printf("\n >>> Press ......\n");
+		printf("\n - 31 for Assignment3 Problem1");
+		printf("\t\t - 41 for Assignment4 Problem1");
+		
+		
+		printf("\n - 32 for Assignment3 Problem2");
+		printf("\t\t - 42 for Assignment4 Problem2");
+		
+		
+		printf("\n - 33 for Assignment3 Problem3");
+		printf("\t\t - 43 for Assignment4 Problem3");
+		
+		
+		printf("\n - 34 for Assignment3 Problem4");
+		printf("\t\t - 44 for Assignment4 Problem4");
+		
+		
+		printf("\n - 35 for Assignment3 Problem5");
+		printf("\t\t - 45 for Assignment4 Problem5");
+		;
+		
+		
+        printf("\t\t\t\t\t ----- And Press 0 to Exit ----- \n");                                               
+         
+        printf("\n Which problem do you want to solve? : ");
+        scanf("%d",&num);
+        printf("\t>>PRESS ENTER<<");
+		getch();
+	    system("cls");                                                        
+
+        printf("\n");
+	    printf("    . \n\n" );
+        printf("    . \n\n" );
+        printf("    . \n\n" );
+
+		if (num==0)                                                                     
+		    break;
+	
+	        switch(num)                                                                 
+	        {
+	        	  case 31:                                                                    
+			      problem31();                                                             
+			      break;
+			      
+			      case 32:                                                                    
+			      problem32();                                                             
+			      break;
+			      
+			      case 33:                                                                    
+			      problem33();                                                             
+			      break;
+			    
+			      case 34:                                                                    
+			      problem34();                                                             
+			      break;
+			    
+			      case 35:                                                                    
+			      problem35();                                                             
+			      break; 
+	        	
+		 	   case 41:                                                                    
+			      problem41();                                                             
+			      break;
+			      
+			   case 42:                                                                    
+			      problem42();                                                             
+			      break;
+			      
+			   case 43:                                                                    
+			      problem43();                                                             
+			      break;
+			    
+			   case 44:                                                                    
+			      problem44();                                                             
+			      break;
+			    
+			   case 45:                                                                    
+			      problem45();                                                             
+			      break;
+			      
+		
+			      
+			   case 0:
+			   	{
+			   		break;
+				}
+				  
+				default:
+	              printf(" Wrong input please select a number from the given menu\n");
+	              break;
+        	}
+        	printf("\n\n________________________________________________\n");
+        	printf("\t>>PRESS ENTER<<");
+        	getch();
+//	    system("cls");
+	}
+
+   return 0;
+}
