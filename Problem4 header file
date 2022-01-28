@@ -1,9 +1,7 @@
 #ifndef PROBLEM4_H_                                       
 #define PROBLEM4_H_
 
-void problem41();   
-
-
+void problem41(); 
 void problem42();   
 void problem43();   
 void problem44();
