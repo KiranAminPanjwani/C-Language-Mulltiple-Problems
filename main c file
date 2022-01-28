@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include<conio.h>
 
-#include "Assignment3.h"                     //add this comment in your respective source files as well
-#include "assignment4.h"                     //add this comment in your respective source files as well      
+#include "Problem31_35.h"                     //add this comment in your respective source files as well
+#include "Problem41_45.h"                     //add this comment in your respective source files as well      
 
 int main()
 {
@@ -17,24 +17,24 @@ int main()
         printf("\n--------------------------------------------------------------------------------------------------------------------\n" );
         
 		printf("\n >>> Press ......\n");
-		printf("\n - 31 for Assignment3 Problem1");
-		printf("\t\t - 41 for Assignment4 Problem1");
+		printf("\n - 31 for Problem31");
+		printf("\t\t - 41 for Problem41");
 		
 		
-		printf("\n - 32 for Assignment3 Problem2");
-		printf("\t\t - 42 for Assignment4 Problem2");
+		printf("\n - 32 for Problem32");
+		printf("\t\t - 42 for Problem42");
 		
 		
-		printf("\n - 33 for Assignment3 Problem3");
-		printf("\t\t - 43 for Assignment4 Problem3");
+		printf("\n - 33 for Problem33");
+		printf("\t\t - 43 for Problem43");
 		
 		
-		printf("\n - 34 for Assignment3 Problem4");
-		printf("\t\t - 44 for Assignment4 Problem4");
+		printf("\n - 34 for Problem34");
+		printf("\t\t - 44 for  Problem44");
 		
 		
-		printf("\n - 35 for Assignment3 Problem5");
-		printf("\t\t - 45 for Assignment4 Problem5");
+		printf("\n - 35 for Problem35");
+		printf("\t\t - 45 for Problem45");
 		;
 		
 		
